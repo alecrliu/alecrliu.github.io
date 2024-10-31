@@ -1,8 +1,6 @@
 <script lang="ts">
-    import { base } from '$lib';
+    import { AppBar } from "$lib";
 </script>
-<nav>
-    <a href="{base}/">Home</a>
-    <a href="{base}/projects">Projects</a>
-</nav>
+
+<AppBar></AppBar>
 <h1>Hello from the project page</h1>

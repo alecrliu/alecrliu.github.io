@@ -1,12 +1,11 @@
 <script lang="ts">
     import { ContactIcons } from "$lib";
     import { fade, slide } from "svelte/transition";
-    import { base } from "$app/paths";
 </script>
 
 <main class="flex-col min-h-screen max-w-2xl mx-auto mt-32 px-4">
     <img
-        src="{base}/pixelduck.gif.webp"
+        src="/pixelduck.gif.webp"
         alt="Profile Icon"
         class="w-60 h-60 rounded-full mx-auto mb-6 shadow-lg"
         in:fade={{ duration: 500 }}
@@ -41,7 +40,7 @@
             A full stack, engineering, and data Psyduck. <br />
         </p>
         <a
-            href="{base}/resume.pdf"
+            href="/resume.pdf"
             class="justify-center flex mt-8 px-6 py-3 bg-black text-white rounded-full text-lg font-medium shadow hover:bg-gray-900 transition"
             download
             in:fade={{ delay: 400, duration: 1000 }}

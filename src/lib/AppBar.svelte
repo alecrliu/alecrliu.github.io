@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { base } from "$app/paths";
     import { page } from "$app/stores";
 </script>
 
@@ -8,18 +7,18 @@
 >
     <div class="max-w-2xl mx-auto flex items-center justify-center h-16">
         <a
-            href="{base}/"
+            href="/"
             class="px-6 py-2 text-lg font-semibold text-gray-900 hover:text-black transition-colors duration-200
-                {$page.url.pathname === `${base}/`
+                {$page.url.pathname === `/`
                 ? 'border-b-2 border-black'
                 : 'border-b-2 border-transparent'}"
         >
             Home
         </a>
         <a
-            href="{base}/projects"
+            href="/projects"
             class="px-6 py-2 text-lg font-semibold text-gray-900 hover:text-black transition-colors duration-200
-                {$page.url.pathname === `${base}/projects`
+                {$page.url.pathname === `$/projects`
                 ? 'border-b-2 border-black'
                 : 'border-b-2 border-transparent'}"
         >

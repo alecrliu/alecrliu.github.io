@@ -21,8 +21,6 @@ jobs:
         run: npm install
 
       - name: build
-        env:
-          BASE_PATH: '/alecrliu.github.io'
         run: npm run build
 
       - name: Upload Artifacts

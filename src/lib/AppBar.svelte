@@ -3,7 +3,7 @@
 </script>
 
 <nav
-    class="w-full bg-white/70 backdrop-blur-lg shadow-none border-b border-gray-200 fixed top-0 left-0 z-30"
+    class="w-full bg-white shadow-none border-b border-gray-200 fixed top-0 left-0 z-30"
 >
     <div class="max-w-2xl mx-auto flex items-center justify-center h-16">
         <a

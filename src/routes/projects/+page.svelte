@@ -6,19 +6,22 @@
         {
             title: "YTubeDB",
             description: "A simplified YouTube clone.",
-            image: "/pixelduck.gif.webp",
+            image: "/example.png",
+            site: "https://example.com",
             source: "https://github.com/yourusername/project-repo",
         },
         {
             title: "Apples",
-            description: ".",
-            image: "https://via.placeholder.com/150",
+            description: "Another project that I made.",
+            image: "/example.png",
+            site: "https://example.com",
+
             source: "https://github.com/yourusername/project-repo",
         },
         {
             title: "Oranges",
-            description: ".",
-            image: "https://via.placeholder.com/150",
+            description: "Another one of my projects.",
+            image: "/example.png",
             site: "https://example.com",
             source: "https://github.com/alecrliu/project-repo",
         },

@@ -47,10 +47,9 @@
             <a
             href="/resume.pdf"
             class="max-w-[220px] mt-8 py-3 bg-black text-white rounded-full text-lg font-medium shadow mb-8 hover:bg-gray-900 transition flex-1 text-center"
-            download
             in:fade={{ delay: 400, duration: 1000 }}
             >
-            Download Resume
+            My Resume
             </a>
         </div>
     </div>

@@ -18,7 +18,7 @@
         <a
             href="/projects"
             class="px-6 py-2 text-lg font-semibold text-gray-900 hover:text-black transition-colors duration-200
-                {$page.url.pathname === `$/projects`
+                {$page.url.pathname === `/projects`
                 ? 'border-b-2 border-black'
                 : 'border-b-2 border-transparent'}"
         >

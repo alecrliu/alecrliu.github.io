@@ -7,7 +7,7 @@
     <title>Alec's Portfolio</title>
 </svelte:head>
 
-<main class="flex-col min-h-screen max-w-2xl mx-auto mt-32 px-28">
+<main class="flex-col min-h-screen min-w-screen mx-auto mt-32 px-28">
     <img
         src="/pixelduck.gif.webp"
         alt="Profile Icon"
@@ -44,7 +44,7 @@
         </p>
         <a
             href="/resume.pdf"
-            class="justify-center flex mt-8 py-3 bg-black text-white rounded-full text-lg font-medium shadow hover:bg-gray-900 transition"
+            class="justify-center flex mt-8 py-3 bg-black text-white rounded-full text-lg font-medium shadow mb-12 hover:bg-gray-900 transition"
             download
             in:fade={{ delay: 400, duration: 1000 }}
         >

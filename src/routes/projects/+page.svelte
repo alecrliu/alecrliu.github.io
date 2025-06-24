@@ -68,7 +68,7 @@
     >
         A selection of things I've built or contributed to.
     </p>
-    <div class="" in:slide={{ delay: 200, duration: 700 }}>
+    <div class="mb-8" in:slide={{ delay: 200, duration: 700 }}>
         <ProjectTiles {projects} />
     </div>
 </main>

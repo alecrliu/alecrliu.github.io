@@ -7,7 +7,7 @@
     <title>Alec's Portfolio</title>
 </svelte:head>
 
-<main class="flex-col min-h-screen min-w-screen mx-auto mt-32 px-28">
+<main class="flex-col min-h-screen min-w-screen mx-auto mt-32">
     <img
         src="/pixelduck.gif.webp"
         alt="Profile Icon"
@@ -31,7 +31,7 @@
         />
     </div>
     <div
-        class="mt-10 flex-1 flex flex-col justify-between"
+        class="flex mt-10 flex-1 flex-col"
         in:slide={{ delay: 600, duration: 800 }}
     >
         <p
@@ -42,13 +42,16 @@
             Previous mechanical engineering graduate. <br />
             A full stack, engineering, and data Psyduck. <br />
         </p>
-        <a
+
+        <div class="flex justify-center">
+            <a
             href="/resume.pdf"
-            class="justify-center flex mt-8 py-3 bg-black text-white rounded-full text-lg font-medium shadow mb-12 hover:bg-gray-900 transition"
+            class="max-w-[220px] mt-8 py-3 bg-black text-white rounded-full text-lg font-medium shadow mb-8 hover:bg-gray-900 transition flex-1 text-center"
             download
             in:fade={{ delay: 400, duration: 1000 }}
-        >
+            >
             Download Resume
-        </a>
+            </a>
+        </div>
     </div>
 </main>

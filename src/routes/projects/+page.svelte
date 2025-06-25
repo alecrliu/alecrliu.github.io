@@ -43,7 +43,7 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="text-blue-500"
+            class="text-blue-500 dark:text-blue-400"
         >
             <path d="M12 2L2 7v10l10 5 10-5V7z" />
             <path d="M12 22V12" />
@@ -57,7 +57,7 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="text-blue-500"
+            class="text-blue-500 dark:text-blue-400"
         >
             <rect x="3" y="3" width="7" height="7" />
             <rect x="14" y="3" width="7" height="7" />
@@ -66,7 +66,7 @@
         </svg>
     </div>
     <p
-        class="text-center text-xl text-gray-500 mb-8 font-light"
+        class="text-center text-xl text-gray-500 dark:text-gray-400 mb-8 font-light"
         in:fade={{ delay: 100, duration: 600 }}
     >
         A selection of things I've built or contributed to.

@@ -1,6 +1,6 @@
 # alecrliu.github.io
-My unmaintained website for portfolios, resumes, and experiments.
+My unmaintained website with a portfolio, resume, and experiments.
 
 https://alecrliu.github.io
 
-Made with SvelteKit, TailwindCSS, and SkeletonUI with auto deployment to GitHub Pages.
+Used TailwindCSS/SkeletonUI with SvelteKit inside a Docker container. GitHub Actions deployment to GitHub Pages.

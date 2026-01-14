@@ -8,7 +8,7 @@
             description: "A simplified YouTube clone.",
             image: "/example.png",
             site: "https://example.com",
-            source: "https://github.com/yourusername/project-repo",
+            source: "https://gitlab.com/cs331e1/ytubedb",
         },
         {
             title: "Apples",
@@ -47,22 +47,6 @@
         >
             <path d="M12 2L2 7v10l10 5 10-5V7z" />
             <path d="M12 22V12" />
-        </svg>
-        <svg
-            width="64"
-            height="64"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="text-blue-500 dark:text-blue-400"
-        >
-            <rect x="3" y="3" width="7" height="7" />
-            <rect x="14" y="3" width="7" height="7" />
-            <rect x="14" y="14" width="7" height="7" />
-            <rect x="3" y="14" width="7" height="7" />
         </svg>
     </div>
     <p

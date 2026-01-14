@@ -39,7 +39,7 @@
         >
             Mechanical engineering graduate. <br />
             Current computer science student. <br />
-            A data-driven, engineering Psyduck. <br />
+            Data-driven engineer. <br />
         </p>
 
         <div class="flex justify-center">

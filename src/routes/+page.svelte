@@ -38,7 +38,7 @@
             class="text-center text-xl text-gray-500 dark:text-gray-400 mb-2 font-light"
         >
             Mechanical engineering graduate. <br />
-            Current computer science student. <br />
+            Computer science student. <br />
             Data-driven engineer. <br />
         </p>
 
